@@ -57,8 +57,8 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+        scale={isMobile ? 0.7 : 0.75} // changed scale from 
+        position={isMobile ? [0, -3, -2.2] : [0, -3.80, -1.5]} // changed -3.35 to -4.25 for view of text / 3d pc for better view on laptop. bigger is bteer on big pc
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
