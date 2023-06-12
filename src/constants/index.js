@@ -116,55 +116,55 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Foundations",
+      company_name: "Go Time",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2023 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Setting up our devices, Getting acquainted with using the lunix command line, using Git and GitHub.",
+        "Introduction to HTML, CSS and JavaScript, with all the new information to take in we focused on creating a wellbeing plan to maintain healthy routine.",
+        "Creating our first website, diving deeper into JavaScript with Kata code challenges to work on our problem solving.",
+        "Working on mini projects and creating games! Completing challenges using logic and problem solving to put what we had learnt so far to the test",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Bootcamp Phase One",
+      company_name: "Stepping it up a gear",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "April 2023 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Week one of bootcamp was awesome meeting everyone and getting acquainted to the workspace.",
+        "Human skills deep dives and Yoga! Combined with in depth Lectures and coding exercises.",
+        "Working in pairs writing algorithms using logic and problem solving and then testing our applications.",
+        "Introduction to back end development using express Js and other frameworks, introduction to Databases and Friday group projects.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Bootcamp Phase Two",
+      company_name: "Turing up the volume",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "May 2023 - Jume 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "In depth look at frontend development, introduction to React.",
+        "Client-side routing and working in group projects to build applications.",
+        "Researching new technologies and delivering lightning talk presentations in groups, giving and receiving feedback.",
+        "Working with API’s, building applications, applying agile methodologies and connecting the front end to the back end.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Bootcamp Phase Three",
+      company_name: "Full Stack, No Sleep",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "June 2023 - July 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Break out lectures on new and popular tech being used in the industry.",
+        "Working on multiday projects in groups using full stack development skills.",
+        "Presenting personal projects and final group projects.",
+        "Pat yourself on the back! Well done.",
       ],
     },
   ];
@@ -172,35 +172,35 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Dam @James! Just saw your project on my Twitter feed, Mad Skills My Dude. Want a Job at Tesla?",
+      name: "Elon Musk",
+      designation: "CEO",
+      company: "Tesla",
+      image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Kick Ass website James! can you make one for me!",
+      name: "Nicolas Cage",
+      designation: "Academy Award winner",
+      company: "Holloywood",
+      image: "https://flxt.tmsimg.com/assets/258_v9_bb.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Microsoft Needs People Like You james, Hit me up on Careers week.",
+      name: "Bill Gates",
+      designation: "CEO",
+      company: "Microsoft",
+      image: "https://cdn.britannica.com/47/188747-050-1D34E743/Bill-Gates-2011.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Mind Peeper",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Firday Group project working in a team using React Libery to make a mystery box App. Look no further Potential employers!",
       tags: [
         {
           name: "react",
