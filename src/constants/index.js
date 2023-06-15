@@ -16,12 +16,13 @@ import {
     //figma,
     docker,
     meta,
-    starbucks,
+   // starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    //house,
+    //carrent,
+    //jobit,
+    //tripguide,
     threejs,
   } from "../assets";
   
@@ -39,6 +40,8 @@ import {
       title: "Contact",
     },
   ];
+
+  const house = '/home/james/personal-projects/Portfolio/src/assets/house.png'
   
   const services = [
     {
@@ -118,7 +121,7 @@ import {
     {
       title: "Foundations",
       company_name: "Go Time",
-      icon: starbucks,
+      icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe1zemPhV4k_7jiMFxL_78L7SAjkOMBRed7g&usqp=CAU',
       iconBg: "#383E56",
       date: "March 2023 - April 2023",
       points: [
@@ -131,7 +134,7 @@ import {
     {
       title: "Bootcamp Phase One",
       company_name: "Stepping it up a gear",
-      icon: tesla,
+      icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnLMy__Gv4EQPy6xLx4k0BAkJjNYXnEnllwg&usqp=CAU',
       iconBg: "#E6DEDD",
       date: "April 2023 - May 2023",
       points: [
@@ -144,7 +147,7 @@ import {
     {
       title: "Bootcamp Phase Two",
       company_name: "Turing up the volume",
-      icon: shopify,
+      icon: 'https://i.pinimg.com/474x/f6/8d/97/f68d97da2a5d3e3a13741dfea2e72cf1.jpg',
       iconBg: "#383E56",
       date: "May 2023 - Jume 2023",
       points: [
@@ -157,7 +160,7 @@ import {
     {
       title: "Bootcamp Phase Three",
       company_name: "Full Stack, No Sleep",
-      icon: meta,
+      icon: 'https://w7.pngwing.com/pngs/38/533/png-transparent-computer-icons-encapsulated-postscript-winner-miscellaneous-sport-hand.png',
       iconBg: "#E6DEDD",
       date: "June 2023 - July 2023",
       points: [
@@ -183,7 +186,7 @@ import {
         "Kick Ass website James! can you make one for me!",
       name: "Nicolas Cage",
       designation: "Academy Award winner",
-      company: "Holloywood",
+      company: "Hollywood",
       image: "https://flxt.tmsimg.com/assets/258_v9_bb.jpg",
     },
     {
@@ -200,56 +203,56 @@ import {
     {
       name: "Mind Peeper",
       description:
-        "Firday Group project working in a team using React Libery to make a mystery box App. Look no further Potential employers!",
+        "Friday Group project working in a team using React Libery to make a mystery box App. Look no further Potential employers!",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: 'https://cdn.shopify.com/s/files/1/0507/8083/1907/products/mystery-box-1-removebg-preview_513x486.png?v=1630723729',
+      source_code_link: "https://github.com/piwakawaka-2023/Mystery-Box-",
+    },
+    {
+      name: "ListIT",
+      description:
+        "Mobile aplication where users can share a live shopping list with chosen members.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "nodeJs",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Scss",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: 'https://newtodesign.com/wp-content/uploads/2018/10/Animated-Pure-CSS-Checkbox.png',
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "AI Image genarator",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Using API's to created a AI image genarator from a user input prompt",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "javaScript",
           color: "green-text-gradient",
         },
         {
@@ -257,7 +260,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: 'https://mpost.io/wp-content/uploads/image-34-27.jpg',
       source_code_link: "https://github.com/",
     },
   ];

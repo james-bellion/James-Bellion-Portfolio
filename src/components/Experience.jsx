@@ -17,6 +17,7 @@ import { textVariant } from '../utils/motion'
 // vertical timeline component from an external libary was handy providing great timeline
 const ExperienceCard = ({ experience }) => (
   
+  
   <VerticalTimelineElement
     contentStyle={{ background: '#1d1836', color:'#fff' }} 
     contentArrowStyle={{ borderRight: '7px solid #232631' }}
@@ -24,11 +25,11 @@ const ExperienceCard = ({ experience }) => (
     iconStyle={{ background: experience.iconBG }}
     icon={
       <div className=" flex justify-center items-center w-full h-full">
-        <img
+         <img
         src={experience.icon}
         alt={experience.company_name}
         className="w-[60%] h-[60%] object-contain"
-        />
+        /> 
         
         
       </div>
