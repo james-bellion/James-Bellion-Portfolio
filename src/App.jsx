@@ -32,6 +32,7 @@ function App() {
         <Contact />
         <StarsCanvas />
       </div>
+     
       </div>
     </BrowserRouter>
   );

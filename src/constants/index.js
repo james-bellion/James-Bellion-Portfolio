@@ -15,10 +15,10 @@ import {
     git,
     //figma,
     docker,
-    meta,
+    //meta,
    // starbucks,
-    tesla,
-    shopify,
+    //tesla,
+    //shopify,
     //house,
     //carrent,
     //jobit,
@@ -41,7 +41,7 @@ import {
     },
   ];
 
-  const house = '/home/james/personal-projects/Portfolio/src/assets/house.png'
+
   
   const services = [
     {
@@ -149,7 +149,7 @@ import {
       company_name: "Turing up the volume",
       icon: 'https://i.pinimg.com/474x/f6/8d/97/f68d97da2a5d3e3a13741dfea2e72cf1.jpg',
       iconBg: "#383E56",
-      date: "May 2023 - Jume 2023",
+      date: "May 2023 - June 2023",
       points: [
         "In depth look at frontend development, introduction to React.",
         "Client-side routing and working in group projects to build applications.",
@@ -203,7 +203,7 @@ import {
     {
       name: "Mind Peeper",
       description:
-        "Friday Group project working in a team using React Libery to make a mystery box App. Look no further Potential employers!",
+        "Friday Group project working in a team. Using React Libery to make a interactive mystery box App, demonstrating react features, playing around with State and event listeners. Look no further Potential employers!",
       tags: [
         {
           name: "React",
@@ -222,9 +222,9 @@ import {
       source_code_link: "https://github.com/piwakawaka-2023/Mystery-Box-",
     },
     {
-      name: "ListIT",
+      name: "Night n Day",
       description:
-        "Mobile aplication where users can share a live shopping list with chosen members.",
+        "FullStack aplication using React Redux, Backend database togeling a darkmode/light mode features showing different native New Zealand species depending on if they are nocturnal or not.",
       tags: [
         {
           name: "react",
@@ -235,20 +235,20 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Scss",
+          name: "Redux",
           color: "pink-text-gradient",
         },
       ],
-      image: 'https://newtodesign.com/wp-content/uploads/2018/10/Animated-Pure-CSS-Checkbox.png',
-      source_code_link: "https://github.com/",
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOu-14ZIn8GLcKPcZStZyv55xMgfOLUAkS1A&usqp=CAU',
+      source_code_link: "https://github.com/piwakawaka-2023/Night-n--day",
     },
     {
-      name: "AI Image genarator",
+      name: "Flate Mat",
       description:
-        "Using API's to created a AI image genarator from a user input prompt",
+        "Another Friday group project working in teams. Here we used databases to create a chores list for fictional flatmates. In this project we used express handelbars, javascript, html and css.",
       tags: [
         {
-          name: "React",
+          name: "handelbars",
           color: "blue-text-gradient",
         },
         {
@@ -260,8 +260,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: 'https://mpost.io/wp-content/uploads/image-34-27.jpg',
-      source_code_link: "https://github.com/",
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHSyr3imsnRlS2PQZsuZaGjWJg8wA_QMAYRQ&usqp=CAU',
+      source_code_link: "https://github.com/piwakawaka-2023/Group-3-Week-3",
     },
   ];
   
