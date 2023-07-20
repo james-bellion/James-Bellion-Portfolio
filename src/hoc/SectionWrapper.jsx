@@ -55,4 +55,3 @@ const StarWrapper = (Component, idName) =>
 export default StarWrapper;
 
 
-//1.19.44 check ?

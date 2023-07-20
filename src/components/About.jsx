@@ -61,9 +61,24 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]"
       >
-        I am a creative full stack software devloper with experiance in Typescript and JavaScript, specialising
-         in frameworks like React, Node.js and Three.js. Currently Studying at Dev Academy Aotearoa.
-        
+        {/* I am a creative full stack software devloper with experiance in Typescript and JavaScript, specialising
+         in frameworks like React, Node.js. Recently graduating from Dev Academy Aotearoa.   */}
+        Full stack Software Developer With a background in Data analysis, construction, Cheffing and hospitality. I have a passion for travel and adventure which lead me here to New Zealand from my home nation the UK.
+      </motion.p>
+
+      <motion.p
+       variants={fadeIn("", "", 0.1, 1)}
+       className="mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]"
+      >
+      I’ve been fortunate enough to work in some fantastic roles and locations, gaining some valuable life and work experiences, with help from some great mentors along the way. 
+      </motion.p>
+
+      <motion.p
+       variants={fadeIn("", "", 0.1, 1)}
+       className="mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]"
+      >
+      Recently graduating from Dev Academy Aotearoa I have gained experiance creating projects using Typescript and JavaScript, specialising
+         in frameworks like React, Node.js.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
