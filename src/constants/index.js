@@ -198,9 +198,9 @@ import {
   
   const projects = [
     {
-      name: "Mind Peeper",
+      name: "List It",
       description:
-        "Friday Group project working in a team. Using React Libery to make a interactive mystery box App, demonstrating react features, playing around with State and event listeners. Look no further Potential employers!",
+        "A full stack app I have developed for me and my partner to log in and view a shared shopping list to help organise ourselves. Using a react frontend with redux and a node backend. Made for mobile",
       tags: [
         {
           name: "React",
@@ -215,13 +215,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: 'https://cdn.shopify.com/s/files/1/0507/8083/1907/products/mystery-box-1-removebg-preview_513x486.png?v=1630723729',
-      source_code_link: "https://github.com/piwakawaka-2023/Mystery-Box-",
+      image: 'https://cdn-icons-png.flaticon.com/512/3225/3225209.png',
+      source_code_link: "https://github.com/james-bellion/ListItApp",
     },
     {
-      name: "Night n Day",
+      name: "My portfolio website ",
       description:
-        "FullStack aplication using React Redux, Backend database togeling a darkmode/light mode features showing different native New Zealand species depending on if they are nocturnal or not.",
+        "Originally starting as a personal project during my developer bootcamp, I made this portfolio website to reflect on my learning. Please feel free to check out any of my other projects on Github.",
       tags: [
         {
           name: "react",
@@ -236,8 +236,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOu-14ZIn8GLcKPcZStZyv55xMgfOLUAkS1A&usqp=CAU',
-      source_code_link: "https://github.com/piwakawaka-2023/Night-n--day",
+      image: 'https://media.licdn.com/dms/image/D4D03AQHpMuqh4rowag/profile-displayphoto-shrink_800_800/0/1688979092410?e=1695254400&v=beta&t=1aF4VODwhpvu1rB9CYW5l1gayfFY22NGbdmZPCq7elM',
+      source_code_link: "https://github.com/james-bellion/James-Bellion-Portfolio",
     },
     {
       name: "Aura Pets",
