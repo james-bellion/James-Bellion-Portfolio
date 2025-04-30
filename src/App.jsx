@@ -24,7 +24,9 @@ function App() {
           <Hero />
         </div>
       <About />
+      <div className="relative z-0">
       <Experience />
+      </div>
       <Tech />
       <Works />
       <Feedbacks />
