@@ -42,6 +42,7 @@ import CanvasLoader from '../Loader'
 // eslint-disable-next-line react/prop-types
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
+  console.log(computer); // Should log {scene: Object3D, nodes: ..., materials: ...}
 
   return (
     <mesh>
@@ -117,5 +118,4 @@ const ComputersCanvas = () => {
 };
 
 export default ComputersCanvas;
-
 
