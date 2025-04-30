@@ -70,16 +70,16 @@ const About = () => {
        variants={fadeIn("", "", 0.1, 1)}
        className="mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]"
       >
-      I’ve been fortunate enough to work in some fantastic roles and locations, gaining some valuable life and work experiences, with help from some great mentors along the way. 
+      After graduating from Dev Academy, I landed my first dev role as a front-end developer role at Accessit Software, where I got to work with some awesome and talented people who taught me so much about modern web development, building large & complex web aplications
       </motion.p>
 
       <motion.p
        variants={fadeIn("", "", 0.1, 1)}
        className="mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]"
       >
-      Recently graduating from Dev Academy Aotearoa I have gained experiance creating projects using Typescript and JavaScript, specialising
-         in frameworks like React, Node.js.
+        Outside of work I'm a chill guy who loves cooking, camping and hiking, going on adventures exploring the beautiful country of New Zealand. One random but cool hobbie of mine is gold prospecting on the amazing stunning rivers in the backcountry of the south island of New Zealand! I'm yet to strike it rich tho I will be sticking to my day job as a developer !
       </motion.p>
+
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

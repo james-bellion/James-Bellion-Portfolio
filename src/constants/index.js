@@ -13,7 +13,7 @@ import {
     nodejs,
     //mongodb,
     git,
-    //figma,
+    figma,
     docker,
     //meta,
    // starbucks,
@@ -24,6 +24,8 @@ import {
     //jobit,
     //tripguide,
     threejs,
+    svelte,
+    playwright
   } from "../assets";
   
   export const navLinks = [
@@ -49,11 +51,11 @@ import {
       icon: web,
     },
     {
-      title: "React Developer",
+      title: "React & Svelte Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "UX/UI Advocate",
       icon: backend,
     },
     {
@@ -107,17 +109,37 @@ import {
       name: "git",
       icon: git,
     },
-    // {
-    //   name: "figma",
-    //   icon: figma,
-    // },
+    {
+      name: "figma",
+      icon: figma,
+    },
     {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "svelte",
+      icon: svelte,
+    },
+    {
+      name: "playwright",
+      icon: playwright,
+    },
   ];
   
   const experiences = [
+    {
+      title: "Front-End Developer ",
+      company_name: "Accessit Software",
+      icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAulBMVEX09vEAKk4AYKn6/Pb39/AAXajp6OOan6SnrK8kYqMAGUUAFkRUfK33+fMAKE0AWacAJEsAVKYAW6gAHUcAVqYAH0gAEkLIy8/u7+sAAD3O0c9/ho+GjZUAI0tvf58TXaKdrMEAVp+xu8gwbKuJmrV3kLM+c66QpsEAT6TK0dfc4OFsi7NVfa+3vMVKdaliiLaDmbi/yNFTX3EAADdhbHs4SF/JzMsnPFi1uboYMVATLk1WYnMrPlifpKghNSpfAAAC90lEQVR4nO3aC1IaQRSF4YYZJiA2oCAZeQQfwfhIiIJGjWb/2wqUG0jFOulTnf/bwS1mfm43hAAAAAAAAAAAAAAAAAAAAAAAAAAge3UllHq4N58WHZXFSZF6uq1YLQ6bKgcfLUacLGQTNk+rmHq+reLsQDZh67y2GPHzSDZif1mmHm+nvNC9iqMvFq9idd6SjXhpUZviSvecNlvXFq+isjar0mJEZW1uLGoTvgq/+E12G2FtRha1icra9D1q801ZG4/dZimszXeL2pT72dfmuincbe4sRpycyiZsLjxqcyKszYVFbeKtsDa3FrWp869N1dHVxuXe5lI2YavjUZv8722i9N7GYcJQr6jNOxx61OZK+Cr+D/c2derxdqL0JOXwnIawL/ziP3MYMVa6njZHFicpbonfN+HK4phRLPuyEfs3Ds9pKIW1GZnsNroJbWqjPEl5/AJ+ogtqq2NRm/JWWBuPX8DDRf61WfCb1Ht47DbK2njsNqVyt1k6PKehFNbG5t7msKUyunN4FePdal/H4m+osRRKPRwAAH8oFkKph9uJ1Qchi51mPd5T2cwM9tJi2m2o7N2nnm6raB/LBhw8GPx1ofgx76kG7A0NrjFi9TiQDXj85FDS9VA1YGM8MxiwmI5lAw7v0z+i28qMZS/h4NWhMhNhZTaT9APG6llXmbFDZeL6SDUglfk3A7a7uso8WlRmqKvMkcUuI6xM16EyRf6V0Z2YTCoj3GUcKhOVlRk67DK1rjINixNT/rvMTFiZl/SPaCiehJV5tqiMblkzqczPzHeZ8KKrTDf7yqwdBlTe/nrsMrpPsHc0Sf8Rxlp4++txL/OS++3vTHgvY1GZp41swPmrwf/WpbvM3GKXyb0ygcr8vfxPTI8WldFltDdw2GWq19wrcy+szNRgQG1lUk8XdpURnpg8dhnh7W/PojIPc9WAjU07/YDayjjsMnG66aocO1QmVL/aOgaV2VL++9diQAAAAAAAAAAAAAAAAAAAAAAAAMDab2TDfXJOI9R1AAAAAElFTkSuQmCC',
+      iconBg: "#E6DEDD",
+      date: "September 2023 - May 2025",
+      points: [
+        "I worked as a front-end developer on a large-scale, complex Library Management System, built using Svelte with JavaScript/TypeScript. ",
+        "This was my first formal role as a software developer and absolutly loved it! building cool new features, fixing bugs and creating beautiful user interfaces",
+        "With excellent mentorship, I was able to grow as a developer, gaining hands-on experience working with cross-functional teams and developing a strong understanding of the full software development lifecycle.",
+      ],
+    },
     {
       title: "Dev Academy ",
       company_name: "Fullstack Developer",
@@ -176,7 +198,7 @@ import {
       name: "Ektaj Singh",
       designation: "Team Member",
       company: "Dev Academy",
-      image: "https://media.licdn.com/dms/image/D5635AQFFrfttE_YCag/profile-framedphoto-shrink_800_800/0/1688960460533?e=1690426800&v=beta&t=xE5Tj63VieW1FolOseL9nEwMHWs0KO6jVIYDFRbd6j4",
+      image: "https://media.licdn.com/dms/image/v2/D5635AQFFrfttE_YCag/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1688960460689?e=1746590400&v=beta&t=EhHpfhRKHD92RoI5G01-4YVcZbx73WIEvs3WRe6lRTY",
     },
     {
       testimonial:
@@ -184,7 +206,7 @@ import {
       name: "Lauren Lancaster",
       designation: "Team Member",
       company: "Dev Academy",
-      image: "https://media.licdn.com/dms/image/D5635AQHSBwh41cVyBQ/profile-framedphoto-shrink_800_800/0/1688952124667?e=1690434000&v=beta&t=bjRoW_hcqrmq44XCzgvB6Arlz3f9J3q9y4XiCineKqw",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQHV2p4EMqD2mg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681429919802?e=1751500800&v=beta&t=ZYYdOZGIA8VuQXqs6ORfycDBVPfRpi9_YSkkbqTIcck",
     },
     {
       testimonial:
@@ -192,7 +214,7 @@ import {
       name: "Jackson Simpson",
       designation: "Team Member",
       company: "Dev Academy",
-      image: "https://media.licdn.com/dms/image/C5603AQHo41cShJmSCw/profile-displayphoto-shrink_800_800/0/1535914883359?e=1695254400&v=beta&t=wZBq-IrqhML8QOUZc_B7BDZgdpXpu4vBKfPBh2ANp8Y",
+      image: "https://media.licdn.com/dms/image/v2/C5603AQHo41cShJmSCw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1535914887078?e=1751500800&v=beta&t=jN2lUi86fCkB0tvnDHbDiwwQneBIl7GVAC8BgN0NQXc",
     },
   ];
   
