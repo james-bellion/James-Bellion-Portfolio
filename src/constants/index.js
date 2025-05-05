@@ -212,25 +212,25 @@ import {
   
   const projects = [
     {
-      name: "List It",
+      name: "Supabase todo's",
       description:
-        "A full stack app I have developed for me and my partner to log in and view a shared shopping list to help organise ourselves. Using a react frontend with redux and a node backend. Made for mobile",
+        "Just playing around with Supabase for the backend & Auth and svelte kit for the front end, making a simple todo app. sign up CRUD your Todo's. Using skelaton UI and tailwind CSS. Deployed on Vercel ",
       tags: [
         {
-          name: "React",
+          name: "Svelte",
           color: "blue-text-gradient",
         },
         {
-          name: "TypeScript",
+          name: "Supabase",
           color: "green-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: 'https://cdn-icons-png.flaticon.com/512/3225/3225209.png',
-      source_code_link: "https://github.com/james-bellion/ListItApp",
+      image: 'src/assets/SupaBaseTodos.png',
+      source_code_link: "https://github.com/james-bellion/simple-supabase-demo/tree/main",
     },
     {
       name: "My portfolio website ",
@@ -250,7 +250,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: 'https://media.licdn.com/dms/image/D4D03AQHpMuqh4rowag/profile-displayphoto-shrink_800_800/0/1688979092410?e=1695254400&v=beta&t=1aF4VODwhpvu1rB9CYW5l1gayfFY22NGbdmZPCq7elM',
+      image: 'src/assets/PersonalProject.png',
       source_code_link: "https://github.com/james-bellion/James-Bellion-Portfolio",
     },
     {
